@@ -1,0 +1,158 @@
+/*======== Insight Scss ========*/
+.rct-page {
+   position: relative;
+   z-index: 9;
+}
+
+.rct-page-content {
+   padding: 0;
+
+   .insight-main {
+      header {
+         box-shadow: none;
+         position: fixed;
+      }
+      .insight-tab {
+         background: #e5e5e5;
+         min-height: 48px;
+
+         .tabs-title {
+            button {
+               opacity: 1;
+
+               .MuiTab-label-206 {
+                  font-size: 13px;
+                  line-height: 13px;
+                  color: #707070;
+                  opacity: 1;
+               }
+
+               &.MuiTab-selected-201 {
+                  .MuiTab-label-206 {
+                     color: #091f2a;
+                  }
+               }
+            }
+
+             .MuiPrivateTabIndicator-root-208, .MuiPrivateTabIndicator-colorSecondary-210, .MuiTabs-indicator-195 {
+               background-color: #046ac9;
+               height: 3px;
+            }
+         }
+      }
+
+      .insight-content {
+         padding-top: 48px;
+         .dropdown-group {
+            display: flex;
+            align-items: center;
+
+            .dropdow-item {
+               display: flex;
+               background-color: #fff;
+               border-radius: 5px;
+               box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.08);
+               border: none;
+               transition: all 0.4s ease-in-out 0s;
+               margin-bottom: 18px;
+               position: relative;
+               padding: 10px 16px;
+               min-height: 42px;
+               margin-right: 10px;
+               &:last-child {
+                  margin-right: 0;
+               }
+
+               .rct-dropdown {
+                  cursor: pointer;
+                  font-size: inherit !important;
+                  line-height: inherit !important;
+                  display: flex;
+                  align-self: center;
+
+                  .dropdown-info {
+                     .dropdown-name {
+                        color: #222222;
+                        font-size: 13px;
+                        line-height: 13px;
+                        margin-right: 2.57vw !important;
+                     }
+                  }
+
+                  .dropdown-menu {
+                     background-color: $base-light;
+                     width: 200px;
+
+                     ul {
+                        background-color: transparent;
+
+                        li:not(.user-profile-top) {
+                           box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.02);
+                           margin: 0.3125rem;
+
+                           a {
+                              background-color: $white;
+                              padding: 0.75rem 1rem;
+                              display: block;
+
+                              i {
+                                 font-size: 1rem;
+                              }
+
+                              span:not(.badge) {
+                                 color: $body-color;
+                                 font-size: $font-size-sm;
+                                 transition: color 0.3s ease;
+                              }
+
+                              &:hover {
+                                 span:not(.badge) {
+                                    color: $primary;
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+
+
+         .counter-main {
+            .rct-block {
+               .rct-block-content {
+                  padding: 16px;
+               }
+            }
+
+            .featured-section-icon {
+               font-size: inherit;
+               color: inherit;
+            }
+
+            .counter-title {
+               font-size: 13px;
+               line-height: 16px;
+               color: #7a7a7a;
+               margin-bottom: 16px;
+            }
+
+            .counter-point {
+               font-size: 40px;
+               line-height: 44px;
+               color: #091f2a;
+            }
+         }
+         .chat-group {
+            h3{
+               font-size: 18px;
+                  line-height: 20px;
+                  color: #222222;
+                  font-weight: 500;
+                  font-family: $font-family-base;
+            }
+         }
+      }
+   }
+}
