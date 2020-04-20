@@ -14,7 +14,7 @@ class RctAgencyApp extends Component {
    render() {
       const { match, location } = this.props;
       if (location.pathname === '/agency') {
-         return (<Redirect to={'/agency/dashboard/ecommerce'} />);
+         return (<Redirect to={'/agency/dashboard/insight'} />);
       }
       return (
          <RctAgencyLayout>

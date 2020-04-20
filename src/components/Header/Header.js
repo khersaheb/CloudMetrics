@@ -188,15 +188,6 @@ class Header extends Component {
                               <p className="text-white mb-0 fs-14">Brooklyn Shelton</p>
                               <span className="text-white fs-14">info@example.com</span>
                            </li>
-                           <li>
-                              <Link to={{
-                                 pathname: '/app/users/user-profile-1',
-                                 state: { activeTab: 0 }
-                              }}>
-                                 <i className="zmdi zmdi-account text-primary mr-3"></i>
-                                 <IntlMessages id="widgets.profile" />
-                              </Link>
-                           </li>
                            <li className="border-top">
                               <a href="javascript:void(0)" onClick={() => this.logoutUser()}>
                                  <i className="zmdi zmdi-power text-danger mr-3"></i>

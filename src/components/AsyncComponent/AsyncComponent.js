@@ -126,37 +126,37 @@ const AsyncLeafletMapComponent = Loadable({
 
 // shop list
 const AsyncShoplistComponent = Loadable({
-   loader: () => import("Routes/ecommerce/shop-list"),
+   loader: () => import("Routes/insight/shop-list"),
    loading: () => <RctPageLoader />,
 });
 
 // shop grid
-const AsyncShopGridComponent = Loadable({
-   loader: () => import("Routes/ecommerce/shop-grid"),
+const AsyncShopGridComponent = Loadable({ 
+   loader: () => import("Routes/insight/shop-grid"),
    loading: () => <RctPageLoader />,
 });
 
 // shop 
 const AsyncShopComponent = Loadable({
-   loader: () => import("Routes/ecommerce/shop"),
+   loader: () => import("Routes/insight/shop"),
    loading: () => <RctPageLoader />,
 });
 
 // cart 
 const AsyncCartComponent = Loadable({
-   loader: () => import("Routes/ecommerce/cart"),
+   loader: () => import("Routes/insight/cart"),
    loading: () => <RctPageLoader />,
 });
 
 // checkout 
 const AsyncCheckoutComponent = Loadable({
-   loader: () => import("Routes/ecommerce/checkout"),
+   loader: () => import("Routes/insight/checkout"),
    loading: () => <RctPageLoader />,
 });
 
 // invoice
 const AsyncInvoiceComponent = Loadable({
-   loader: () => import("Routes/ecommerce/invoice"),
+   loader: () => import("Routes/insight/invoice"),
    loading: () => <RctPageLoader />,
 });
 

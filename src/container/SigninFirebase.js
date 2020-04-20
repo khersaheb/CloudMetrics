@@ -95,7 +95,7 @@ class Signin extends Component {
                         <div className="col-sm-10">
                            <div className="session-body text-center">
                               <div className="session-head mb-30">
-                                 <h2 className="font-weight-bold">College Administrator Sign In</h2>
+                                 <h2 className="font-weight-bold">Cloud Metrics Sign In</h2>
                               </div>
                               <Form>
                                  <FormGroup className="has-wrapper">
